@@ -34,35 +34,6 @@ It integrates OpenAI, Gemini AI, and Google Maps API to deliver AI-enhanced, int
 **APIs**: OpenAI API, Google Places API
 **Others**: JWT Auth, Axios, Vite
 
-## 🏗️ Architecture  
-[ User ] 
-   |
-   | Types question or clicks quick suggestion
-   v
-[ React Frontend Chat Component ]
-   |
-   | Send question + trip context (destination, days, budget)
-   v
-[ Express.js Backend API (/api/chat/ask) ]
-   |
-   | Calls OpenAI GPT model with system prompt:
-   |  "You are a travel expert helping plan trips"
-   v
-[ OpenAI ]
-   |
-   | AI-generated answer
-   v
-[ Backend ] 
-   | Optionally enriches answer:
-   | - Calls Google Places API to get place details, photos, maps
-   v
-[ Frontend ]
-   | Shows:
-   | - AI text answer
-   | - Place cards with image & link
-   v
-[ User sees personalized suggestions & interacts again ]
-
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
@@ -121,7 +92,7 @@ Q: What’s unique about TripPocket?
 ## 🙋‍♂️ Contact Details
 
 **Santhosh Korra**  
-📧 **Email**: santhoshnaik218@gmail.com  
+📧 **Email**: santhoshnaik6929@gmail.com  
 🌐 **LinkedIn**: [linkedin.com/in/santhosh-chauhan](https://www.linkedin.com/in/santhosh-chauhan/)
 
 
