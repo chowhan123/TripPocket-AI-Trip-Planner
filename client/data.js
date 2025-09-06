@@ -1,0 +1,167 @@
+const indiaListings = [
+  {
+    title: "Heritage Haveli in Jaipur",
+    description: "Stay in a beautifully restored Rajasthani haveli with courtyard gardens and traditional decor.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1602143216815-7cdcf0242712?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1400,
+    location: "Jaipur",
+    country: "India",
+  },
+  {
+    title: "Palace Hotel in Jaipur",
+    description: "Live in royal style at a former Maharaja's palace turned luxury hotel.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1612036784361-14d23c031d0c?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 3500,
+    location: "Jaipur",
+    country: "India",
+  },
+  {
+    title: "City Palace Residence",
+    description: "Stay near the iconic City Palace in luxurious surroundings with heritage charm.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570585220521-5d6e0f3b38f0?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2200,
+    location: "Jaipur",
+    country: "India",
+  },
+  {
+    title: "Kashmir Houseboat Retreat",
+    description: "Relax on board a traditional houseboat floating on Dal Lake, Kashmir.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1604023489622-d43104cb7c39?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2000,
+    location: "Srinagar",
+    country: "India",
+  },
+  {
+    title: "Backwater Houseboat in Kerala",
+    description: "Cruise through tranquil backwaters on a cozy traditional houseboat.",
+    image: {
+      filename: "listingimage",
+      url: "https://pixabay.com/photos/houseboat-kerala-alleppey-houseboat-2791119/",
+    },
+    price: 1800,
+    location: "Alleppey",
+    country: "India",
+  },
+  {
+    title: "Tea Estate Bungalow in Munnar",
+    description: "Stay in a colonial-era tea plantation bungalow surrounded by greenery.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1586840484813-0d87d55c76f5?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1700,
+    location: "Munnar",
+    country: "India",
+  },
+  {
+    title: "Treehouse in Wayanad",
+    description: "Live among treetops in an eco‑friendly treehouse nestled in the Western Ghats.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1570622855223-5b2c3f3c396f?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1300,
+    location: "Wayanad",
+    country: "India",
+  },
+  {
+    title: "Beach Hut in Gokarna",
+    description: "Unplug and relax in a rustic hut by the Arabian Sea.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1600207548104-1e82fdbfc666?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 900,
+    location: "Gokarna",
+    country: "India",
+  },
+  {
+    title: "Luxury Villa in Goa",
+    description: "Stay in a private villa with pool and tropical garden, minutes from the beach.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1579871567074-00166ff1ab7c?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2500,
+    location: "Goa",
+    country: "India",
+  },
+  {
+    title: "Colonial Home in Pondicherry",
+    description: "French-Colonial style stay near the promenade and beach.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1603652152941-57f4fc9ba720?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1500,
+    location: "Pondicherry",
+    country: "India",
+  },
+  {
+    title: "Himalayan Cottage in Manali",
+    description: "Cozy wooden cottage with panoramic views of the snow‑capped mountains.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1606115915094-bd6f9ae75065?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1600,
+    location: "Manali",
+    country: "India",
+  },
+  {
+    title: "Desert Camp in Jaisalmer",
+    description: "Luxury tent experience under the stars amid golden dunes.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1606312619543-540186ddae3c?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1300,
+    location: "Jaisalmer",
+    country: "India",
+  },
+  {
+    title: "Homestay in Spiti Valley",
+    description: "Mountain homestay with family hospitality in breathtaking surroundings.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1548286978-49a1d2d94c2d?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1000,
+    location: "Spiti Valley",
+    country: "India",
+  },
+  {
+    title: "Bamboo Cottage on Havelock Island",
+    description: "Eco‑friendly stay steps from the beach in the Andamans.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1900,
+    location: "Havelock Island",
+    country: "India",
+  },
+  {
+    title: "Forest Cabin in Coorg",
+    description: "Secluded cabin surrounded by coffee plantations and lush greenery.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=60",
+    },
+    price: 1200,
+    location: "Coorg",
+    country: "India",
+  },
+];
