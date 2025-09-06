@@ -28,11 +28,11 @@ It integrates OpenAI, Gemini AI, and Google Maps API to deliver AI-enhanced, int
 - 🛠 RESTful APIs – Modular and scalable backend with Express.js & MongoDB
 
 ## 🛠 Tech Stack
-**Frontend**: React, TailwindCSS, Socket.IO
-**Backend**: Node.js, Express.js
-**Database**: MongoDB
-**APIs**: OpenAI API, Google Places API
-**Others**: JWT Auth, Axios, Vite
+- **Frontend**: React, TailwindCSS, Socket.IO
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **APIs**: OpenAI API, Google Places API
+- **Others**: JWT Auth, Axios, Vite
 
 ## ⚙️ Setup Instructions
 
